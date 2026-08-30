@@ -11,7 +11,7 @@ from aiogram.enums import ParseMode, ChatMemberStatus
 from aiogram.exceptions import TelegramBadRequest
 
 # ====== SOZLAMALAR ======
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8802318240:AAF3aEF01ANPHyBfd00Ax-dEb7lVUhSB9dQ")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "BOT_TOKEN_NI_BU_YERGA_YOZING")
 ADMIN_IDS = [5485806415]  # <-- o'zingizning Telegram ID raqamingizni shu yerga yozing
 DB_PATH = "kino.db"
 
