@@ -12,16 +12,15 @@ from aiogram.exceptions import TelegramBadRequest
 
 # ====== SOZLAMALAR ======
 BOT_TOKEN = os.getenv("BOT_TOKEN", "BOT_TOKEN_NI_BU_YERGA_YOZING")
-ADMIN_IDS = [123456789]  # <-- o'zingizning Telegram ID raqamingizni shu yerga yozing
+ADMIN_IDS = [5485806415]  # <-- o'zingizning Telegram ID raqamingizni shu yerga yozing
 DB_PATH = "kino.db"
 
 # Majburiy obuna kanallari.
 # username bo'lsa "@" bilan yozing (masalan "@mychannel"), yopiq kanal bo'lsa -100... ko'rinishidagi ID yozing.
 # Har bir element: (kanal_id_yoki_username, kanalga_havola, kanal_nomi)
 FORCE_SUB_CHANNELS = [
-    ("@your_channel_username", "https://t.me/your_channel_username", "Kanalimiz"),
+    (-1003986899025, "https://t.me/+as1HUuKOrv1mYzJi", "1-kanal"),
 ]
-
 logging.basicConfig(level=logging.INFO)
 
 bot = Bot(token=BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
