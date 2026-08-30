@@ -19,7 +19,6 @@ DB_PATH = "kino.db"
 # username bo'lsa "@" bilan yozing (masalan "@mychannel"), yopiq kanal bo'lsa -100... ko'rinishidagi ID yozing.
 # Har bir element: (kanal_id_yoki_username, kanalga_havola, kanal_nomi)
 FORCE_SUB_CHANNELS = [
-    FORCE_SUB_CHANNELS = [
     (-1003986899025, "https://t.me/+as1HUuKOrv1mYzJi", "1-kanal"),
     (-1004405457232, "https://t.me/urwelcomexxexe", "2-kanal"),]
 ]
