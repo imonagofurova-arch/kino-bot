@@ -12,24 +12,26 @@ from aiogram.exceptions import TelegramBadRequest
  
 # ====== SOZLAMALAR ======
 BOT_TOKEN = os.getenv("BOT_TOKEN", "BOT_TOKEN_NI_BU_YERGA_YOZING")
-ADMIN_IDS = [123456789]  # <-- o'zingizning Telegram ID raqamingizni shu yerga yozing
+ADMIN_IDS = [5485806415]  # <-- o'zingizning Telegram ID raqamingizni shu yerga yozing
 DB_PATH = "kino.db"
  
 # Majburiy obuna kanallari.
 # username bo'lsa "@" bilan yozing (masalan "@mychannel"), yopiq kanal bo'lsa -100... ko'rinishidagi ID yozing.
 # Har bir element: (kanal_id_yoki_username, kanalga_havola, kanal_nomi)
 FORCE_SUB_CHANNELS = [
-    ("@your_channel_username", "https://t.me/your_channel_username", "Kanalimiz"),
+    FORCE_SUB_CHANNELS = [
+    (-1003986899025, "https://t.me/+as1HUuKOrv1mYzJi", "1-kanal"),
+    (-1004405457232, "https://t.me/urwelcomexxexe", "2-kanal"),
 ]
  
 # Yangi kino qo'shilganda e'lon qilinadigan kanal.
 # Bot shu kanalda ADMIN bo'lishi SHART (xabar yuborish huquqi bilan).
 # Yopiq kanal bo'lsa -100... ko'rinishidagi ID yozing, ochiq bo'lsa "@kanal_username" yozing.
-ANNOUNCE_CHANNEL_ID = "@your_channel_username"
+ANNOUNCE_CHANNEL_ID = -1004405457232
  
 # Botning username'i (@ belgisisiz), deep-link tugmasi uchun kerak.
 # Masalan bot manzili https://t.me/mybot bo'lsa, shu yerga "mybot" deb yozing.
-BOT_USERNAME = "mybot"
+BOT_USERNAME = "tungikinosex_bot"
  
 logging.basicConfig(level=logging.INFO)
  
